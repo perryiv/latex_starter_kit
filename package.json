@@ -1,0 +1,26 @@
+{
+  "name": "latex_starter_kit",
+  "version": "0.1.0",
+  "description": "Boilerplate code for getting started with latex",
+  "main": "paper.tex",
+  "scripts": {
+    "build": "texi2pdf source/paper.tex",
+    "clear": "clear",
+    "watch": "grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perryiv/latex_starter_kit.git"
+  },
+  "author": "Perry L Miller IV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perryiv/latex_starter_kit/issues"
+  },
+  "homepage": "https://github.com/perryiv/latex_starter_kit",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-run": "^0.6.0"
+  }
+}
