@@ -25,7 +25,10 @@
 \setlength{\columnsep}{0.4in}
 
 % Automatically generate the bibliography.
-\usepackage{biblatex}
+\usepackage[
+  sortcites = true,        % \cite{a,d,b} --> [a,b,d]
+  citestyle = numeric-comp % \cite{a,c,b} --> [a-c]
+]{biblatex}
 \addbibresource{references.bib}
 
 % Set the title and author.
