@@ -4,7 +4,7 @@
   "description": "Boilerplate code for getting started with latex",
   "main": "paper.tex",
   "scripts": {
-    "build": "texi2pdf source/paper.tex",
+    "build": "latex paper ; biber paper ; latex paper ; latex -output-format=pdf paper",
     "clear": "clear",
     "watch": "grunt watch"
   },

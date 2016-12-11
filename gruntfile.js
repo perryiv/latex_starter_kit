@@ -49,7 +49,8 @@ module.exports = function ( grunt )
           "latex/**/*.cls",
 
           // Source of the paper.
-          "source/**/*.tex"
+          "source/**/*.tex",
+          "source/**/*.bib"
         ],
 
         // Do these tasks when a file changes.

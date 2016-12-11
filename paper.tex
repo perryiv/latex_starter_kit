@@ -17,8 +17,14 @@
 % Distance between columns.
 \setlength{\columnsep}{0.4in}
 
+% The package for the bibliography.
+\usepackage{biblatex}
+
+% The name of the bibliography file.
+\addbibresource{source/references.bib}
+
 % Set the title.
-\title{\LARGE \bf Your Awesome Title Here}
+\title{\LARGE \bf My Paper Title}
 
 % Set the author.
 \author{Your Name Here}
@@ -37,27 +43,42 @@ All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+
 % End of the abstract.
 \end{abstract}
 
 % New section.
 \section{Introduction}
+\label{sec:introduction}
 
 All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+\cite{knuthwebsite}
+All work and no play makes Jack a dull boy.
+
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
 % New section.
 \section{Details}
+\label{sec:details}
 
 All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
 % New sub-section.
 \subsection{Figures}
+\label{sec:details_figures}
 
 Good, then we will shall fight in the shade.
 Good, then we will shall fight in the shade.
@@ -77,28 +98,25 @@ Good, then we will shall fight in the shade.
 Good, then we will shall fight in the shade.
 Good, then we will shall fight in the shade.
 
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+
 % A figure.
 \begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{figures/mountains.jpg}
+\includegraphics[width=\linewidth,natwidth=400,natheight=300]{figures/mountains.jpg}
 \caption{Majestic mountains.}
 \label{fig:mountains}
 \end{figure}
 
 % New sub-section.
 \subsection{Bullets}
+\label{sec:details_bullets}
 
 % Start some bullets.
 \begin{itemize}
-
-\item All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-
-\item All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-
-\item All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
 
 \item All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
@@ -111,6 +129,7 @@ All work and no play makes Jack a dull boy.
 
 % New sub-section.
 \subsection{Equations}
+\label{sec:details_equations}
 
 All work and no play makes Jack a dull boy.
 
@@ -119,9 +138,14 @@ $$
 $$
 
 % New sub-section.
-\subsection{Figures}
+\subsection{Tables}
+\label{sec:details_tables}
 
 All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
@@ -129,79 +153,74 @@ All work and no play makes Jack a dull boy.
 
 \begin{table}[h]
 \caption{An Example of a Table}
-\label{table_example}
+\label{tab:table_a}
 \begin{center}
-\begin{tabular}{|c||c|}
+\begin{tabular}{|c||c|c|}
 \hline
-One & Two\\
+One & Two & Three\\
 \hline
-Three & Four\\
+Four & Five & Six\\
 \hline
 \end{tabular}
 \end{center}
 \end{table}
 
+\section{Conclusion}
+\label{sec:conclusions}
+
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
+All work and no play makes Jack a dull boy.
 
 % New sub-section.
-\subsection{Tables}
+\subsection{Important Stuff}
+\label{sec:conclusions_important_stuff}
 
-All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
-
-\begin{figure}[thpb]
-\centering
-\framebox{\parbox{3in}{We suggest that you use a text box to insert a graphic (which is ideally a 300 dpi TIFF or EPS file, with all fonts embedded) because, in an document, this method is somewhat more stable than directly inserting a picture.
-}}
-%\includegraphics[scale=1.0]{figurefile}
-\caption{Inductance of oscillation winding on amorphous
-magnetic core versus DC bias magnetic field}
-\label{figurelabel}
-\end{figure}
-   
-Figure Labels: Use 8 point Times New Roman for Figure labels. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity Magnetization, or Magnetization, M, not just M. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write Magnetization (A/m) or Magnetization {A[m(1)]}, not just A/m. Do not label axes with a ratio of quantities and units. For example, write Temperature (K), not Temperature/K.
-
-\section{Conclusion}
-
-All work and no play makes Jack a dull boy.
-All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
 \section*{Appendix}
+\label{sec:appendix}
 
-All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
 \section*{Acknowledgment}
+\label{sec:acknowledgment}
 
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
-% Start of the bibliography.
-\begin{thebibliography}{99}
+% Generate the bibliography.
+\printbibliography
 
-\bibitem{c1} G. O. Young, Synthetic structure of industrial plastics (Book style with paper title and editor),   in Plastics, 2nd ed. vol. 3, J. Peters, Ed.  New York: McGraw-Hill, 1964, pp. 15Ð64.
+% % Start of the bibliography.
+% \begin{thebibliography}{99}
 
-\bibitem{c2} W.-K. Chen, Linear Networks and Systems (Book style).  Belmont, CA: Wadsworth, 1993, pp. 123Ð135.
+% \bibitem{c1} G. O. Young, Synthetic structure of industrial plastics (Book style with paper title and editor),   in Plastics, 2nd ed. vol. 3, J. Peters, Ed.  New York: McGraw-Hill, 1964, pp. 15Ð64.
 
-\bibitem{c3} H. Poor, An Introduction to Signal Detection and Estimation.   New York: Springer-Verlag, 1985, ch. 4.
+% \bibitem{c2} W.-K. Chen, Linear Networks and Systems (Book style).  Belmont, CA: Wadsworth, 1993, pp. 123Ð135.
 
-\bibitem{c4} B. Smith, An approach to graphs of linear forms (Unpublished work style), unpublished.
+% \bibitem{c3} H. Poor, An Introduction to Signal Detection and Estimation.   New York: Springer-Verlag, 1985, ch. 4.
 
-\bibitem{c5} E. H. Miller, A note on reflector arrays (Periodical styleÑAccepted for publication), IEEE Trans. Antennas Propagat., to be publised.
+% \bibitem{c4} B. Smith, An approach to graphs of linear forms (Unpublished work style), unpublished.
 
-% End of the bibliography.
-\end{thebibliography}
+% \bibitem{c5} E. H. Miller, A note on reflector arrays (Periodical styleÑAccepted for publication), IEEE Trans. Antennas Propagat., to be publised.
+
+% % End of the bibliography.
+% \end{thebibliography}
 
 % End of the document.
 \end{document}
