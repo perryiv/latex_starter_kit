@@ -22,7 +22,7 @@ See figures
 \ref{fig:lake} for details.
 Good, then we will shall fight in the shade.
 
-% A figure.
+% A figure using an EPS vector image file.
 \begin{figure}[h]
 \centering
 \includegraphics{../figures/shapes.eps}
@@ -40,7 +40,7 @@ All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 
-% A figure.
+% A figure using a JPG raster image file.
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth,natwidth=400,natheight=300]{../figures/mountains.jpg}
@@ -57,11 +57,12 @@ All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
 All work and no play makes Jack a dull boy.
+Figure \ref{fig:outdoor_cafe} demonstrates how we can make an image span both columns.
 
-% A figure.
-\begin{figure}[h]
+% A figure that spans both columns.
+\begin{figure*}[h]
 \centering
-\includegraphics[width=\linewidth,natwidth=400,natheight=300]{../figures/lake.jpg}
-\caption{A Mountain Lake from Unsplash It \cite{unsplash}.}
-\label{fig:lake}
-\end{figure}
+\includegraphics[width=\textwidth,natwidth=800,natheight=600]{../figures/outdoor_cafe.jpg}
+\caption{Outdoor Cafe from Unsplash It \cite{unsplash}.}
+\label{fig:outdoor_cafe}
+\end{figure*}
