@@ -56,7 +56,9 @@ module.exports = function ( grunt )
         // Do these tasks when a file changes.
         tasks: [
           "run:clear",
-          "run:build"
+          "run:clean",
+          "run:build",
+          "run:clean"
         ],
 
         // Do not spawn a child process to run the tasks.

@@ -4,7 +4,8 @@
   "description": "Boilerplate code for getting started with latex",
   "main": "paper.tex",
   "scripts": {
-    "build": "cd source ; pwd ; latex paper ; biber paper ; latex paper ; latex -output-format=pdf paper",
+    "build": "cd source ; latex paper ; biber paper ; latex paper ; latex -output-format=pdf paper ; mv paper.pdf ../",
+    "clean": "cd source ; rm -f paper.aux paper.bbl paper.bcf paper.blg paper.dvi paper.log paper.run.xml",
     "clear": "clear",
     "watch": "grunt watch"
   },
