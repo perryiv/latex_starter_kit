@@ -1,0 +1,5 @@
+node_modules
+paper.aux
+paper.log
+paper.pdf
+figures/*.pdf

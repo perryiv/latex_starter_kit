@@ -41,6 +41,7 @@ module.exports = function ( grunt )
         files: [
 
           // Configuration files.
+          "ReadMe.md",
           "gruntfile.js",
           "package.json",
 
