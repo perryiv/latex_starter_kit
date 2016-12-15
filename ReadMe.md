@@ -6,5 +6,5 @@ It uses node and, specifically, grunt to automatically recompile when source fil
 
 To get started:
 
-  npm install
-  npm run watch
+	npm install
+	npm run watch
